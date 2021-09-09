@@ -19,7 +19,7 @@
 }
 .back {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-image: linear-gradient(to right top, #1cb5e0, #0092c9, #0070b0, #004f93, #002f73, #002f73, #002f73, #002f73, #004f93, #0070b0, #0092c9, #1cb5e0);
  /* background-image: url(/fiscal-monetary-policies-symbol-businessman-600w-190894337.jpg);*/
   background-repeat: no-repeat;
