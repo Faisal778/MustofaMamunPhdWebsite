@@ -2,13 +2,14 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: auto;
+  font-family:fangsong;
   font-weight:400;
+  font-size: 16px;
   font-size: large;
-
 }
 .body {
   background-color: beige;
+  font-family: Avro;
 }
 .row {
   background-color: rgba(255, 255, 255, 0.719);
@@ -32,25 +33,25 @@
 
 .makecircle {
   border-radius: 3%;
+ 
 
 }
 .photo {
-  width: 280px;
-  height: 280px;
+  width: 220px;
+  height: 220px;
   margin: 0 auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   object-fit: cover;
 }
 .position h3 {
-  font-family: "Raleway", sans-serif;
   margin-left: 40px;
   margin-top: 15px;
 }
 .position {
-  font-family: "Raleway", sans-serif;
+  
   margin-left: auto;
   margin-top: auto;
 }
@@ -65,7 +66,7 @@
   padding-right: 4%;
 
   font-size: large;
-  font-family: unset;
+ 
 }
 
 .col-12 {
@@ -77,14 +78,15 @@
   text-align: center;
   padding-top: 3%;
   padding-bottom: 2%;
+  font-size:xx-large;
 }
 .research h2 {
-  font-family: serif;
+ 
 }
 
 .menutopic {
   font-size: xx-large;
-  font-family: unset;
+ 
   padding-left: 45%;
   padding-top: 2%;
   padding-bottom: 5%;
@@ -96,23 +98,31 @@
   color: white;
   /*cursor: pointer;*/
     text-align: center;
+    border-radius: 5px;
+
    
 }
 .working-papers {
-  font-family: serif;
+ 
   padding-left: 3%;
   padding-bottom: 1%;
+    padding-right: 3%;
+  font-size:medium;
 }
 .work-in-progress {
-  font-family: serif;
+
   padding-left: 3%;
   padding-bottom: 1%;
+    padding-right: 3%;
+  font-size:medium;
 }
 
 .published-papers {
-  font-family: serif;
+ 
   padding-left: 3%;
   padding-bottom: 3%;
+    padding-right: 3%;
+  font-size:medium;
 }
 .topics-01 h5 {
   padding-left: 2%;
@@ -150,7 +160,7 @@
 }
 
 .contact {
-  font-family: serif;
+ 
   font-size: larger;
   text-align: center;
   padding-top: 3%;
@@ -194,4 +204,32 @@ font-size:xx-large;
   padding-right: 5%;
   padding-top: 1%;
   font-size: larger;
+}
+.cv {
+  align-items: center;
+  
+  background-color: #F8f9fa;
+  border-radius: 5px;
+  border-width: thin;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: rgb(62 132 199 / 40%) 0 2px 4px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  height: 50px;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: box-shadow .15s,transform .15s;
+  font-size: 18px;
+
+
+
+}
+
+
+.center {
+  margin: auto;
+  padding-top: 30px;
 }
